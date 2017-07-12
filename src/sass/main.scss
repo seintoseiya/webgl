@@ -1,0 +1,75 @@
+@import "components/_sanitize.scss";
+
+$header-h: 50px;
+
+/* ============================================================================= */
+/*  common style                                                                 */
+/* ============================================================================= */
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  margin: 0;
+}
+header{
+  background-color: #EEE;
+  height: $header-h;
+}
+h1 {
+  text-align: center;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+/* ============================================================================= */
+/*  #top                                                                         */
+/* ============================================================================= */
+#top{
+  #stage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    // background: white;
+  }
+  .container{
+    display: flex;
+    height: 100vh;
+  }
+    .top-holotama{
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #BBB;
+      padding-top: 200px;
+    }
+    .top-mixedsignage{
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #333; 
+      padding-top: 200px;
+    }
+      .test{
+        position: absolute;
+      }
+}
+
+/* ============================================================================= */
+/*  #holotama                                                                    */
+/* ============================================================================= */
+#holotama{
+  
+}
+
+/* ============================================================================= */
+/*  #mixedsignage                                                                */
+/* ============================================================================= */
+#mixedsignage{
+  
+}
